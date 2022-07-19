@@ -1,0 +1,136 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Water
+  m_Shader: {fileID: 4800000, guid: 8da7de12543c4d34ab73e0acac6deb9c, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 2000
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DepthTexture:
+        m_Texture: {fileID: 2800000, guid: 4e90040deab1877428a18945ce52a47e, type: 3}
+        m_Scale: {x: 1, y: 0.54}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DumpTex:
+        m_Texture: {fileID: 2800000, guid: c09c20f04466ce049a0d45eb05d909b6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FoamTexture:
+        m_Texture: {fileID: 2800000, guid: c8cf09027bb260a4cb42f8ef87d44b8b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 2279b5189065eb94aa872c7539febf37, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTexture:
+        m_Texture: {fileID: 2800000, guid: 800e061692ff7a84e887f439d3364410, type: 3}
+        m_Scale: {x: 0.68, y: 1}
+        m_Offset: {x: -1.06, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalTex:
+        m_Texture: {fileID: 2800000, guid: 19221384192bd5b448f8e46042dbc727, type: 3}
+        m_Scale: {x: 1.27, y: 1}
+        m_Offset: {x: 0.49, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - Glossy: 0.5
+    - _A: 0.43
+    - _A2: -0.92
+    - _Amp: 0.134
+    - _BumpScale: 1
+    - _Cutoff: 0.5
+    - _DetailNormalMapScale: 1
+    - _DstBlend: 0
+    - _FoamDeP: 0.5
+    - _Gloss: 0.63
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _Glossy: 12.8
+    - _GlossyReflections: 1
+    - _Metallic: 0
+    - _Mode: 0
+    - _NormalRefract: 0.92
+    - _NormalScale: 1
+    - _NormalsScale: 158
+    - _NormalsStrength: 46
+    - _OcclusionStrength: 1
+    - _Offset: 1
+    - _Parallax: 0.02
+    - _Saturation: 1.25
+    - _Smoothness: 1
+    - _SmoothnessTextureChannel: 0
+    - _Specular: 0.33
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _UVSec: 0
+    - _WaveXSpeed: 0.8
+    - _WaveYSpeed: 1.03
+    - _ZWrite: 1
+    - _end: 6.33
+    - _fresnelPow: 7.72
+    - _g: 2
+    - _g2: 2
+    - _goudu: 1
+    - _line: 0.044
+    - _start: 1
+    - _w: 5.08
+    - _w2: 5
+    - _waveFaMax: 0.3
+    - _waveFaMin: 0.08
+    - _waveFaSpeed: 50
+    - _xishu: 1
+    - cSecondWeight: 0.0527
+    m_Colors:
+    - _Color: {r: 0.4627451, g: 0.69366926, b: 0.8980392, a: 1}
+    - _D: {r: -1.58, g: 0.73, b: 0.13, a: 1.04}
+    - _D2: {r: -1.7, g: 0, b: -2.01, a: 3.21}
+    - _DepthGradientDeep: {r: 0.6981132, g: 0.63247794, b: 0.11525452, a: 0.749}
+    - _DepthGradientShallow: {r: 0.2028302, g: 0.8113208, b: 0.29016128, a: 0.725}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _WaveSpeed: {r: 0.5, g: 0.1, b: 0.49, a: 0}
+    - _specularColor: {r: 0.9245283, g: 0.09158063, b: 0.09158063, a: 1}
+  m_BuildTextureStacks: []
